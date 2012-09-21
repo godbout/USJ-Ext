@@ -7,97 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		915B9A06160AD8AE00D1ED4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915B9A05160AD8AE00D1ED4F /* Cocoa.framework */; };
-		915B9A10160AD8AE00D1ED4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 915B9A0E160AD8AE00D1ED4F /* InfoPlist.strings */; };
-		915B9A12160AD8AE00D1ED4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B9A11160AD8AE00D1ED4F /* main.m */; };
-		915B9A16160AD8AE00D1ED4F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 915B9A14160AD8AE00D1ED4F /* Credits.rtf */; };
-		915B9A19160AD8AE00D1ED4F /* SLMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B9A18160AD8AE00D1ED4F /* SLMAppDelegate.m */; };
-		915B9A1C160AD8AE00D1ED4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915B9A1A160AD8AE00D1ED4F /* MainMenu.xib */; };
+		91D30878160C2B8F00C076C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D30877160C2B8F00C076C2 /* Cocoa.framework */; };
+		91D30882160C2B8F00C076C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91D30880160C2B8F00C076C2 /* InfoPlist.strings */; };
+		91D30884160C2B8F00C076C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D30883160C2B8F00C076C2 /* main.m */; };
+		91D30888160C2B8F00C076C2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 91D30886160C2B8F00C076C2 /* Credits.rtf */; };
+		91D3088B160C2B8F00C076C2 /* SLMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D3088A160C2B8F00C076C2 /* SLMAppDelegate.m */; };
+		91D3088E160C2B8F00C076C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D3088C160C2B8F00C076C2 /* MainMenu.xib */; };
+		91D30896160C2CDD00C076C2 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D30895160C2CDD00C076C2 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		915B9A01160AD8AE00D1ED4F /* USJ Ext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USJ Ext.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		915B9A05160AD8AE00D1ED4F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		915B9A08160AD8AE00D1ED4F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		915B9A09160AD8AE00D1ED4F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		915B9A0A160AD8AE00D1ED4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		915B9A0D160AD8AE00D1ED4F /* USJ Ext-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "USJ Ext-Info.plist"; sourceTree = "<group>"; };
-		915B9A0F160AD8AE00D1ED4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		915B9A11160AD8AE00D1ED4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		915B9A13160AD8AE00D1ED4F /* USJ Ext-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USJ Ext-Prefix.pch"; sourceTree = "<group>"; };
-		915B9A15160AD8AE00D1ED4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		915B9A17160AD8AE00D1ED4F /* SLMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMAppDelegate.h; sourceTree = "<group>"; };
-		915B9A18160AD8AE00D1ED4F /* SLMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLMAppDelegate.m; sourceTree = "<group>"; };
-		915B9A1B160AD8AE00D1ED4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		91D30873160C2B8F00C076C2 /* USJ Ext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USJ Ext.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D30877160C2B8F00C076C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		91D3087A160C2B8F00C076C2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		91D3087B160C2B8F00C076C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		91D3087C160C2B8F00C076C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91D3087F160C2B8F00C076C2 /* USJ Ext-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "USJ Ext-Info.plist"; sourceTree = "<group>"; };
+		91D30881160C2B8F00C076C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91D30883160C2B8F00C076C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91D30885160C2B8F00C076C2 /* USJ Ext-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USJ Ext-Prefix.pch"; sourceTree = "<group>"; };
+		91D30887160C2B8F00C076C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		91D30889160C2B8F00C076C2 /* SLMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMAppDelegate.h; sourceTree = "<group>"; };
+		91D3088A160C2B8F00C076C2 /* SLMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLMAppDelegate.m; sourceTree = "<group>"; };
+		91D3088D160C2B8F00C076C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		91D30894160C2CDD00C076C2 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		91D30895160C2CDD00C076C2 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		915B99FE160AD8AE00D1ED4F /* Frameworks */ = {
+		91D30870160C2B8F00C076C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915B9A06160AD8AE00D1ED4F /* Cocoa.framework in Frameworks */,
+				91D30878160C2B8F00C076C2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		915B99F6160AD8AE00D1ED4F = {
+		91D30868160C2B8F00C076C2 = {
 			isa = PBXGroup;
 			children = (
-				915B9A0B160AD8AE00D1ED4F /* USJ Ext */,
-				915B9A04160AD8AE00D1ED4F /* Frameworks */,
-				915B9A02160AD8AE00D1ED4F /* Products */,
+				91D3087D160C2B8F00C076C2 /* USJ Ext */,
+				91D30876160C2B8F00C076C2 /* Frameworks */,
+				91D30874160C2B8F00C076C2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		915B9A02160AD8AE00D1ED4F /* Products */ = {
+		91D30874160C2B8F00C076C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				915B9A01160AD8AE00D1ED4F /* USJ Ext.app */,
+				91D30873160C2B8F00C076C2 /* USJ Ext.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		915B9A04160AD8AE00D1ED4F /* Frameworks */ = {
+		91D30876160C2B8F00C076C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				915B9A05160AD8AE00D1ED4F /* Cocoa.framework */,
-				915B9A07160AD8AE00D1ED4F /* Other Frameworks */,
+				91D30877160C2B8F00C076C2 /* Cocoa.framework */,
+				91D30879160C2B8F00C076C2 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		915B9A07160AD8AE00D1ED4F /* Other Frameworks */ = {
+		91D30879160C2B8F00C076C2 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				915B9A08160AD8AE00D1ED4F /* AppKit.framework */,
-				915B9A09160AD8AE00D1ED4F /* CoreData.framework */,
-				915B9A0A160AD8AE00D1ED4F /* Foundation.framework */,
+				91D3087A160C2B8F00C076C2 /* AppKit.framework */,
+				91D3087B160C2B8F00C076C2 /* CoreData.framework */,
+				91D3087C160C2B8F00C076C2 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		915B9A0B160AD8AE00D1ED4F /* USJ Ext */ = {
+		91D3087D160C2B8F00C076C2 /* USJ Ext */ = {
 			isa = PBXGroup;
 			children = (
-				915B9A17160AD8AE00D1ED4F /* SLMAppDelegate.h */,
-				915B9A18160AD8AE00D1ED4F /* SLMAppDelegate.m */,
-				915B9A1A160AD8AE00D1ED4F /* MainMenu.xib */,
-				915B9A0C160AD8AE00D1ED4F /* Supporting Files */,
+				91D30889160C2B8F00C076C2 /* SLMAppDelegate.h */,
+				91D3088A160C2B8F00C076C2 /* SLMAppDelegate.m */,
+				91D3088C160C2B8F00C076C2 /* MainMenu.xib */,
+				91D30894160C2CDD00C076C2 /* Employee.h */,
+				91D30895160C2CDD00C076C2 /* Employee.m */,
+				91D3087E160C2B8F00C076C2 /* Supporting Files */,
 			);
 			path = "USJ Ext";
 			sourceTree = "<group>";
 		};
-		915B9A0C160AD8AE00D1ED4F /* Supporting Files */ = {
+		91D3087E160C2B8F00C076C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				915B9A0D160AD8AE00D1ED4F /* USJ Ext-Info.plist */,
-				915B9A0E160AD8AE00D1ED4F /* InfoPlist.strings */,
-				915B9A11160AD8AE00D1ED4F /* main.m */,
-				915B9A13160AD8AE00D1ED4F /* USJ Ext-Prefix.pch */,
-				915B9A14160AD8AE00D1ED4F /* Credits.rtf */,
+				91D3087F160C2B8F00C076C2 /* USJ Ext-Info.plist */,
+				91D30880160C2B8F00C076C2 /* InfoPlist.strings */,
+				91D30883160C2B8F00C076C2 /* main.m */,
+				91D30885160C2B8F00C076C2 /* USJ Ext-Prefix.pch */,
+				91D30886160C2B8F00C076C2 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,13 +110,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		915B9A00160AD8AE00D1ED4F /* USJ Ext */ = {
+		91D30872160C2B8F00C076C2 /* USJ Ext */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 915B9A1F160AD8AE00D1ED4F /* Build configuration list for PBXNativeTarget "USJ Ext" */;
+			buildConfigurationList = 91D30891160C2B8F00C076C2 /* Build configuration list for PBXNativeTarget "USJ Ext" */;
 			buildPhases = (
-				915B99FD160AD8AE00D1ED4F /* Sources */,
-				915B99FE160AD8AE00D1ED4F /* Frameworks */,
-				915B99FF160AD8AE00D1ED4F /* Resources */,
+				91D3086F160C2B8F00C076C2 /* Sources */,
+				91D30870160C2B8F00C076C2 /* Frameworks */,
+				91D30871160C2B8F00C076C2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -119,82 +124,83 @@
 			);
 			name = "USJ Ext";
 			productName = "USJ Ext";
-			productReference = 915B9A01160AD8AE00D1ED4F /* USJ Ext.app */;
+			productReference = 91D30873160C2B8F00C076C2 /* USJ Ext.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		915B99F8160AD8AE00D1ED4F /* Project object */ = {
+		91D3086A160C2B8F00C076C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SLM;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = sleeplessmind;
 			};
-			buildConfigurationList = 915B99FB160AD8AE00D1ED4F /* Build configuration list for PBXProject "USJ Ext" */;
+			buildConfigurationList = 91D3086D160C2B8F00C076C2 /* Build configuration list for PBXProject "USJ Ext" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 915B99F6160AD8AE00D1ED4F;
-			productRefGroup = 915B9A02160AD8AE00D1ED4F /* Products */;
+			mainGroup = 91D30868160C2B8F00C076C2;
+			productRefGroup = 91D30874160C2B8F00C076C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				915B9A00160AD8AE00D1ED4F /* USJ Ext */,
+				91D30872160C2B8F00C076C2 /* USJ Ext */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		915B99FF160AD8AE00D1ED4F /* Resources */ = {
+		91D30871160C2B8F00C076C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915B9A10160AD8AE00D1ED4F /* InfoPlist.strings in Resources */,
-				915B9A16160AD8AE00D1ED4F /* Credits.rtf in Resources */,
-				915B9A1C160AD8AE00D1ED4F /* MainMenu.xib in Resources */,
+				91D30882160C2B8F00C076C2 /* InfoPlist.strings in Resources */,
+				91D30888160C2B8F00C076C2 /* Credits.rtf in Resources */,
+				91D3088E160C2B8F00C076C2 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		915B99FD160AD8AE00D1ED4F /* Sources */ = {
+		91D3086F160C2B8F00C076C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915B9A12160AD8AE00D1ED4F /* main.m in Sources */,
-				915B9A19160AD8AE00D1ED4F /* SLMAppDelegate.m in Sources */,
+				91D30884160C2B8F00C076C2 /* main.m in Sources */,
+				91D3088B160C2B8F00C076C2 /* SLMAppDelegate.m in Sources */,
+				91D30896160C2CDD00C076C2 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		915B9A0E160AD8AE00D1ED4F /* InfoPlist.strings */ = {
+		91D30880160C2B8F00C076C2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				915B9A0F160AD8AE00D1ED4F /* en */,
+				91D30881160C2B8F00C076C2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		915B9A14160AD8AE00D1ED4F /* Credits.rtf */ = {
+		91D30886160C2B8F00C076C2 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				915B9A15160AD8AE00D1ED4F /* en */,
+				91D30887160C2B8F00C076C2 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		915B9A1A160AD8AE00D1ED4F /* MainMenu.xib */ = {
+		91D3088C160C2B8F00C076C2 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				915B9A1B160AD8AE00D1ED4F /* en */,
+				91D3088D160C2B8F00C076C2 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -202,7 +208,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		915B9A1D160AD8AE00D1ED4F /* Debug */ = {
+		91D3088F160C2B8F00C076C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		915B9A1E160AD8AE00D1ED4F /* Release */ = {
+		91D30890160C2B8F00C076C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +261,7 @@
 			};
 			name = Release;
 		};
-		915B9A20160AD8AE00D1ED4F /* Debug */ = {
+		91D30892160C2B8F00C076C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -267,7 +273,7 @@
 			};
 			name = Debug;
 		};
-		915B9A21160AD8AE00D1ED4F /* Release */ = {
+		91D30893160C2B8F00C076C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -282,24 +288,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		915B99FB160AD8AE00D1ED4F /* Build configuration list for PBXProject "USJ Ext" */ = {
+		91D3086D160C2B8F00C076C2 /* Build configuration list for PBXProject "USJ Ext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				915B9A1D160AD8AE00D1ED4F /* Debug */,
-				915B9A1E160AD8AE00D1ED4F /* Release */,
+				91D3088F160C2B8F00C076C2 /* Debug */,
+				91D30890160C2B8F00C076C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		915B9A1F160AD8AE00D1ED4F /* Build configuration list for PBXNativeTarget "USJ Ext" */ = {
+		91D30891160C2B8F00C076C2 /* Build configuration list for PBXNativeTarget "USJ Ext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				915B9A20160AD8AE00D1ED4F /* Debug */,
-				915B9A21160AD8AE00D1ED4F /* Release */,
+				91D30892160C2B8F00C076C2 /* Debug */,
+				91D30893160C2B8F00C076C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 915B99F8160AD8AE00D1ED4F /* Project object */;
+	rootObject = 91D3086A160C2B8F00C076C2 /* Project object */;
 }
