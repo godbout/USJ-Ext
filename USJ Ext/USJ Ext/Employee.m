@@ -10,9 +10,9 @@
 
 @implementation Employee
 
-@synthesize name;
-@synthesize ext;
-@synthesize email;
+@synthesize name = _name;
+@synthesize ext = _ext;
+@synthesize email = _email;
 
 - (id)init
 {
@@ -23,9 +23,9 @@
 {
     self = [super init];
     if (self) {
-        name = [info objectForKey:@"name"];
-        ext = [info objectForKey:@"ext"];
-        email = [info objectForKey:@"email"];
+        _name = [info objectForKey:@"name"];
+        _ext = [info objectForKey:@"ext"];
+        _email = [info objectForKey:@"email"];
     }
     return self;
 }

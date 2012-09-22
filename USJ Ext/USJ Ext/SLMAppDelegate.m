@@ -21,21 +21,37 @@
     self = [super init];
     if (self) {
         [self setEmployees];
-        NSLog(@"there are %ld employees", [employees count]);
     }
     return self;
 }
 
 - (void)setEmployees
 {
-    NSDictionary *dict1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Guill Lo", @"name", @"458", @"ext", @"guill@usj.edu.mo", @"email", nil];
+    NSDictionary *dict1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Guill Lo", @"name", @"458", @"ext", @"guill@email.com", @"email", nil];
     Employee *employee1 = [[Employee alloc] initWithDictionary:dict1];
-    NSDictionary *dict2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Eric Chan", @"name", @"643", @"ext", @"eric@usj.edu.mo", @"email", nil];
+    NSDictionary *dict2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"IT Support", @"name", @"555", @"ext", @"itsupport@email.com", @"email", nil];
     Employee *employee2 = [[Employee alloc] initWithDictionary:dict2];
-    NSDictionary *dict3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Miguel Lemos", @"name", @"555", @"ext", @"miguel@usj.edu.mo", @"email", nil];
+    NSDictionary *dict3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Annoying Witness", @"name", @"123", @"ext", @"annoyingwitness@email.com", @"email", nil];
     Employee *employee3 = [[Employee alloc] initWithDictionary:dict3];
     
     employees = [[NSArray alloc] initWithObjects:employee1, employee2, employee3, nil];
 }
 
+
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
+    NSInteger count = 0;
+    if (self->employees) {
+        count = [employees count];
+    }
+    
+    return count;
+}
+
+- (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    NSString *identifier = [tableColumn identifier];
+    Employee *employee = [employees objectAtIndex:row];
+    return [employee valueForKey:identifier];
+}
 @end

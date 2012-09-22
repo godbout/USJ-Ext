@@ -8,11 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface SLMAppDelegate : NSObject <NSApplicationDelegate>
+@interface SLMAppDelegate : NSObject <NSApplicationDelegate, NSTableViewDelegate, NSTableViewDataSource>
 {
     NSArray *employees;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTableView *_tableView;
 
 @end
