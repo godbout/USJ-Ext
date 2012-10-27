@@ -88,8 +88,7 @@
 				91D30889160C2B8F00C076C2 /* SLMAppDelegate.h */,
 				91D3088A160C2B8F00C076C2 /* SLMAppDelegate.m */,
 				91D3088C160C2B8F00C076C2 /* MainMenu.xib */,
-				91D30894160C2CDD00C076C2 /* Employee.h */,
-				91D30895160C2CDD00C076C2 /* Employee.m */,
+				91D6F3AB160DC59C000B1DB3 /* Classes */,
 				91D3087E160C2B8F00C076C2 /* Supporting Files */,
 			);
 			path = "USJ Ext";
@@ -105,6 +104,15 @@
 				91D30886160C2B8F00C076C2 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91D6F3AB160DC59C000B1DB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				91D30894160C2CDD00C076C2 /* Employee.h */,
+				91D30895160C2CDD00C076C2 /* Employee.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +312,7 @@
 				91D30893160C2B8F00C076C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

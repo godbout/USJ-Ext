@@ -13,10 +13,12 @@
     NSString *name;
     NSString *ext;
     NSString *email;
+    NSString *campus;
 }
 @property (readwrite, copy) NSString *name;
 @property (readwrite, copy) NSString *ext;
 @property (readwrite, copy) NSString *email;
+@property (readwrite, copy) NSString *campus;
 
 - (id)initWithDictionary:(NSDictionary *)info;
 @end

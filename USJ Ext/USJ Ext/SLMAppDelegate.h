@@ -15,5 +15,6 @@
 
 @property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSTableView *_tableView;
+@property (weak) IBOutlet NSSearchField *_searchField;
 
 @end

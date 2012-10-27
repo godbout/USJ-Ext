@@ -13,10 +13,11 @@
 @synthesize name = _name;
 @synthesize ext = _ext;
 @synthesize email = _email;
+@synthesize campus = _campus;
 
 - (id)init
 {
-    return [self initWithDictionary:[[NSDictionary alloc] initWithObjectsAndKeys:@"name", @"name", @"ext", @"ext", @"email", @"email", nil]];
+    return [self initWithDictionary:[[NSDictionary alloc] initWithObjectsAndKeys:@"name", @"name", @"ext", @"ext", @"email", @"email", @"campus", @"campus", nil]];
 }
 
 - (id)initWithDictionary:(NSDictionary *)info
@@ -26,6 +27,7 @@
         _name = [info objectForKey:@"name"];
         _ext = [info objectForKey:@"ext"];
         _email = [info objectForKey:@"email"];
+        _campus = [info objectForKey:@"campus"];
     }
     return self;
 }
