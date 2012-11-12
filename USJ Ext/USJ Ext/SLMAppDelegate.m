@@ -34,12 +34,11 @@
 }
 
 
-// For the moment, sets the employees manually
-// Later, will load a file if exists, else manually
 // Later later, will load from Google Drive if file doesn't exist
 - (void)setEmployees
 {
-
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"xml"];
+    employees = [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
 }
 
 /* Not needed anymore because using an ArrayController, because easier for NSTableView filtering */

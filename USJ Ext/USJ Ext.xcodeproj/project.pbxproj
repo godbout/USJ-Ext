@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9130AB8E1650FAE600B8BD45 /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9130AB8D1650FAE600B8BD45 /* data.xml */; };
 		91D30878160C2B8F00C076C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D30877160C2B8F00C076C2 /* Cocoa.framework */; };
 		91D30882160C2B8F00C076C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91D30880160C2B8F00C076C2 /* InfoPlist.strings */; };
 		91D30884160C2B8F00C076C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D30883160C2B8F00C076C2 /* main.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9130AB8D1650FAE600B8BD45 /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
 		91D30873160C2B8F00C076C2 /* USJ Ext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USJ Ext.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D30877160C2B8F00C076C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		91D3087A160C2B8F00C076C2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -97,6 +99,7 @@
 		91D3087E160C2B8F00C076C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9130AB8D1650FAE600B8BD45 /* data.xml */,
 				91D3087F160C2B8F00C076C2 /* USJ Ext-Info.plist */,
 				91D30880160C2B8F00C076C2 /* InfoPlist.strings */,
 				91D30883160C2B8F00C076C2 /* main.m */,
@@ -170,6 +173,7 @@
 				91D30882160C2B8F00C076C2 /* InfoPlist.strings in Resources */,
 				91D30888160C2B8F00C076C2 /* Credits.rtf in Resources */,
 				91D3088E160C2B8F00C076C2 /* MainMenu.xib in Resources */,
+				9130AB8E1650FAE600B8BD45 /* data.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
